@@ -71,7 +71,25 @@ Starting with HTML
     <p style="background-color:#ff6347;"> This is tomato color equivalent to hex value #ff6347. </p>
     <p style="background-color:hsl(9, 100%, 64%);">This also a tomato color equivalent to hsl value hsl(9, 100%, 64%). </p>
     <p style="background-color:rgba(255, 99, 71, 0.5);">This is also tomato color but with 50% transparency.</p>
-    <p style="background-color:hsla(9, 100%, 64%, 0.5);">This is also tomato color but with 50% transparency.</p>
+    <p style="background-color:hsla(9, 100%, 64%, 0.5);">This is also tomato color but with 50% transparency.<br>
+    The color can be specified using RGB values as rgb(red, green, blue).<br>
+    Each parameter defines the intensity of color b/w 0 to 256.<br>
+    <br>
+    The RGBA is extended version of RGB where A specifies Alpha value, that sets the opacity of color. <br>
+    RGBA color value is specified with rgba(red, green, blue, alpha). <br>
+    Alpha parameter is between 0.0(fully transparent) to 1.0(not transparent at all).</p>
+    <p>The colors can also be specified using hexadecimal values as #rrggbb, where: <br>
+      rr(red), gg(green), bb(blue) are hexadecimal values between 0 to ff(same as decimal value 0 to 255).<br>
+      #000000 value specifies black color. <br>
+      #ffffff value specifies white color.</p>
+    <p> HSL values are used as hsl(hue, saturation, lightness). <br>
+      Hue is color value between 0 to 360. <br>
+      Saturation is color percentage 0 to 100%. <br>
+      Lightness is also a color percentage between 0 to 100%. 
+    </p>
+    
+      
+    
     
         
   </body>
