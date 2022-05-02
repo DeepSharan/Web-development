@@ -65,6 +65,14 @@ Starting with HTML
     <p style="border:2px solid tomato;" >
       We can set border by using "style" attribute.
     </p>
+    <h2 style="border:2px solid dodgerblue"> Border Styles </h2>
+    <p>We can set the color values using RGB, HSL, HEX, and 50% transparent using RGBA & HSLA.</p>
+    <p style="background-color:rgb(255, 99, 71);">This is tomato color equivalent to rgb(255, 99, 71).</p>
+    <p style="background-color:#ff6347;"> This is tomato color equivalent to hex value #ff6347. </p>
+    <p style="background-color:hsl(9, 100%, 64%);">This also a tomato color equivalent to hsl value hsl(9, 100%, 64%). </p>
+    <p style="background-color:rgba(255, 99, 71, 0.5);">This is also tomato color but with 50% transparency.</p>
+    <p style="background-color:hsla(9, 100%, 64%, 0.5);">This is also tomato color but with 50% transparency.</p>
+    
         
   </body>
 </html>
