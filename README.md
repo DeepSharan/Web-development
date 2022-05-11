@@ -88,6 +88,8 @@ Starting with HTML
       Lightness is also a color percentage between 0 to 100%. 
     </p>
     
+    <p> Now we'll learn about the CSS.<br> CSS stands for Cascading Style Sheets. Its used to format the layout of Web Page.<br> CSS can be added to html using 3 ways:<br> <b>Inline</b> by using the style attribute.<br> <b>Internal</b> by using style element in the head section.<br> <b>External</b> by using a link element to link to an external CSS file. </p>
+    <p> 
       
     
     
