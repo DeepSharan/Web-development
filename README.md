@@ -89,10 +89,31 @@ Starting with HTML
     </p>
     
     <p> Now we'll learn about the CSS.<br> CSS stands for Cascading Style Sheets. Its used to format the layout of Web Page.<br> CSS can be added to html using 3 ways:<br> <b>Inline</b> by using the style attribute.<br> <b>Internal</b> by using style element in the head section.<br> <b>External</b> by using a link element to link to an external CSS file. </p>
-    <p> 
-      
-    
-    
+    <p> We've already used inline method before i.e. using style attribute.<br> We'll see the how to use the <b>Internal CSS</b>. <br> Internal CSS is defined in the "head" section, within the "style element".<br>
+      <!--
+         <head>
+            <style>
+             body {background-color : powder blue;}
+             h1 {color : blue;}
+             p {color : red;}
+            </style>
+          </head>
+       -->
+    </p>
+    <p> <b>External CSS</b> is used to define the style of many HTML pages.<br> To use an External style sheet add a link to it in the head section.<br>
+      <!--
+          <head>
+            <link rel = "stylesheet" href = "styles.css">
+          </head>
+       -->
+      External style sheet can be written in any text editor, it must not contain any html code.<br> External style sheet must be saved with a .css extension. 
+    </p>
+    <p> <b> HTML Links </b> Links are used to jump to other documents.<br> As we have used links before, the format to specify the links is <a href="URL">text to be shown</a>. <br> 
+      Now we'll see how to use an image as a link.
+      <a href="www.w3schools.com">
+      <img src=" https://www.sailing5terre.com/wp-content/uploads/2017/11/cinque-terre-vernazza.jpg " width="600" height="400" alt="Good Vibes">
+      <\a>
+     
         
   </body>
 </html>
